@@ -1,0 +1,64 @@
+#i_botao {
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+
+}
+
+#saida {
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+}
+
+.conteudo {
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://simpress.com.br/wp-content/themes/yootheme/cache/21/banner-simpress-seja-um-cliente-2141b799.webp);
+ 
+    gap: 5%;
+}
+
+.pesquisa {
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.pesquisa input {
+    width: 30%;
+    height: 30%;
+    text-align: center;
+    color: black;
+    outline: none;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.pesquisa i {
+    font-size: 30px;
+    cursor: pointer;
+}
+
+
+.foto {
+    height: 70%;
+    width: 60%;
+    border: 3px rgb(125, 12, 125) solid;
+    background-color: white;
+}
+button{
+    height: 20%;
+    width: 10%;
+    background-color: rgb(125, 12, 125);
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+}
